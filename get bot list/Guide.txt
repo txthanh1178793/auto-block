@@ -1,0 +1,8 @@
+- Yêu cầu: máy tính có nodejs, yarn.
+- Cài đặt: giải nén và mở command line, chạy yarn install để cài đặt
+- Config:
+    + Sửa rpc trong file hardhat.config.ts
+    + Sửa private key, contract address và owner address trong config.ts
+- Chạy: 
+    + yarn dev --network goerli (testnet)
+    + yarn dev --network eth (mainnet)
